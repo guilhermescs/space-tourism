@@ -1,0 +1,32 @@
+body {
+    background-image: url('/images/home/background-home-mobile-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header {
+    margin: 24px;
+}
+
+#navbar {
+    width: 24px;
+    height: 21px;
+}
+
+a.navbar-brand {
+    margin-right: 10px;
+}
+
+button.navbar-toggler {
+    position: absolute;
+}
