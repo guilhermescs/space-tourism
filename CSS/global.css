@@ -3,3 +3,27 @@
     margin: 0;
     padding: 0;
 }
+
+header img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header {
+    margin: 24px;
+}
+
+.navbar-toggler {
+    width: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    width: 1px;
+}
