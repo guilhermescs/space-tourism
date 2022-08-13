@@ -1,31 +1,29 @@
+
 body {
-    background-image: url('/images/home/background-home-mobile-2.jpg');
+    background-image: url(/images/home/background-home-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
+    background-attachment: fixed;
 }
 
 main {
-    position: relative;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about {
-    width: 327px;
-    height: 276px;
-    align-items: center;
-    text-align: center;
-    justify-content: center ;
-    margin: 48px auto 81px auto;
+    width: 450px;
+    height: 382px;
+    margin: 251px auto 131px 165px;
 }
 
 .about h3 {
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 2.7px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
     color: #D0D6F9;
 }
 
@@ -33,48 +31,103 @@ main {
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
-    line-height: 100px;
-    text-align: center;
+    font-size: 150px;
+    line-height: 172px;
     color: #FFFFFF;
     text-transform: uppercase;
-    margin-top: 16px;
 }
 
 .about p {
-    font-family:'Barlow';
+    font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
     color: #D0D6F9;
-    margin: 16px 24px auto 24px;
+
 }
 
 .explore {
     background-color: #FFFFFF;
-    width: 150px;
-    height: 150px;
+    width: 274px;
+    height: 274px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin: auto;
-    padding: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    margin: auto 165px 131px auto;
 }
 
 .explore a {
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 1.25px;
     color: #0B0D17;
     text-transform: uppercase;
     text-decoration: dashed;
+}
+
+@media (max-width: 999px) {
+    body {
+        background-image: url(/images/home/background-home-mobile-2.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-attachment: fixed;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 327px;
+        height: 276px;
+        margin: 48px auto 81px auto;
+
+    }
+    
+    .about h3 {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+    }
+    
+    .about h1 {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .about p {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+    }
+
+    .explore {
+        margin: 0 auto 41px auto;
+        width: 150px;
+        height: 150px;  
+    }
+
 }
