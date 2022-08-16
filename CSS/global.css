@@ -67,6 +67,9 @@ nav {
     align-items: center;
   }
   
+  .list {
+    display: flex;
+  }
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
@@ -115,6 +118,7 @@ nav {
     .list {
         position: absolute;
         top: 118px;
+        flex-direction: column;
     }
     .nav-list li {
         margin: 0 0 32px 32px;
