@@ -9,12 +9,12 @@ body {
 main {
     display: flex;
     justify-content: space-between;
+    margin: 256px 165px auto 165px;
 }
 
 .about {
     width: 450px;
     height: 382px;
-    margin: 251px auto 131px 165px;
 }
 
 .about h3 {
@@ -57,7 +57,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    margin: auto 165px 131px auto;
+    margin-top: 100px;
 }
 
 .explore a {
@@ -78,11 +78,14 @@ main {
         background-image: url(/images/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
+    
     }
 
     main {
         display: flex;
         flex-direction: column;
+        margin: 48px auto auto auto;
+
     }
 
     .about {
@@ -124,7 +127,8 @@ main {
     }
 
     .explore {
-        margin: 0 auto 41px auto;
+        margin: auto;
+        margin-top: 0;
         width: 150px;
         height: 150px;  
     }
