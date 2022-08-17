@@ -6,10 +6,16 @@ body {
     background-attachment: fixed;
 }
 
+#home {
+    border-bottom: 3px solid #fff;
+    margin-top: 33px;
+    padding-bottom: 32px;
+}
+
 main {
     display: flex;
     justify-content: space-between;
-    margin: 256px 165px auto 165px;
+    margin: 256px 165px 20vh 165px;
 }
 
 .about {
@@ -48,6 +54,9 @@ main {
 }
 
 .explore {
+    position: absolute;
+    right: 165px;
+    top: 400px;
     background-color: #FFFFFF;
     width: 274px;
     height: 274px;
@@ -57,8 +66,12 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
 }
+
+.explore:hover {
+    text-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 
 .explore a {
     font-family: 'Bellefair';
@@ -73,12 +86,23 @@ main {
     text-decoration: dashed;
 }
 
+.explore a:hover{
+    color: #0B0D17;
+}
+
+
+
 @media (max-width: 999px) {
     body {
         background-image: url(/images/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
     
+    }
+    #home {
+        border-bottom: 0px solid transparent;
+        margin-top: 0;
+        padding-bottom: 0;
     }
 
     main {
