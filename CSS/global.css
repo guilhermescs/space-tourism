@@ -24,7 +24,7 @@ nav a {
     transition: 0.3s;
 }
 
-strong {
+.nav-list strong {
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 700;
@@ -47,10 +47,6 @@ strong {
     top: 62.75px;
   }
   
-  main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-  }
   
   .nav-list {
     position: absolute;

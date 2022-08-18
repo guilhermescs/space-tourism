@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./CSS/global.css">
-    <link rel="stylesheet" href="/CSS/destination.css">
+    <link rel="stylesheet" href="./CSS/destination.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
@@ -22,7 +22,7 @@
     <header>
         
         <nav>
-            <a class="logo" href="/"><img src="/images/shared/logo.svg" alt="logo"></a>
+            <a class="logo" href="/index.html"><img src="/images/shared/logo.svg" alt="logo"></a>
             
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -34,7 +34,7 @@
             <ul class="nav-list">
                 <div class="list">
                     <li><a href="/index.html"><strong>00 </strong>Home</a></li>
-                    <li><a href="/destination.html"><strong>01 </strong>Destination</a></li>
+                    <li id="text-mark"><a href="/destination.html"><strong>01 </strong>Destination</a></li>
                     <li><a href="/crew.html"><strong>02 </strong>Crew</a></li>
                     <li><a href="/technology.html"><strong>03 </strong>Technology</a></li>
                 </div>
@@ -45,10 +45,47 @@
     </header>
 
     <main>
+        <div class="destination">
+            <h1><strong>01</strong>Pick your destination</h1>
 
-        
-  
-    </main>
+            
+            <div class="moon">
+                    
+                    <img src="/images/destination/image-moon.png" alt="moon">
+
+                    <div class="description">
+                    
+                        <nav>
+                            <ul>
+                                <li><a href="/"></a>Moon</li>
+                                <li><a href="/"></a>Mars</li>
+                                <li><a href="/"></a>Europa</li>
+                                <li><a href="/"></a>Titan</li>
+                            </ul>
+                        </nav>
+
+                        <h2>Moon</h2>
+                        <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                        <hr>
+
+                        <section>
+                            <div class="distance">
+                                <p>AVG. distance</p>
+                                <h3>225 MIL. km/h3>
+                            </div>
+
+                            <div class="travel-time">
+                                <p>EST. travel Time</p>
+                                <h3>9 months</h3>
+                            </div>
+                        </section>
+                        
+                    </div>
+
+            </div>
+
+        </div>
     
+    <script src="/Scripts/mobile-navbar.js"></script>
 </body>
 </html>

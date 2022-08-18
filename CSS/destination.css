@@ -1,0 +1,74 @@
+body {
+    background-image: url(/images/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+
+
+#text-mark {
+    border-bottom: 3px solid #fff;
+    margin-top: 33px;
+    padding-bottom: 32px;
+}
+
+.destination {
+    text-align: center;
+}
+
+.destination h1 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.destination h1 strong {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.moon {
+    display: flex;
+    justify-content: center;
+}
+
+.moon img {
+    width: 445px;
+    height: 445px;
+}
+
+.description {
+    width: 445px;
+    height: 472px;
+}
+
+.moon nav ul {
+    display: flex;
+    padding: 0;
+}
+
+.moon li{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    list-style: none;
+    padding-right: 35px;
+    text-transform: uppercase;
+}
