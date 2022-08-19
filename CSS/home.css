@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(/images/home/background-home-desktop.jpg);
+    background-image: url(./images/home/background-home-desktop.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     background-attachment: fixed;
@@ -94,7 +94,7 @@ main {
 
 @media (max-width: 999px) {
     body {
-        background-image: url(/images/home/background-home-mobile.jpg);
+        background-image: url(./images/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
     
