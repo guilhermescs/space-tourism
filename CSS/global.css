@@ -95,10 +95,9 @@ nav a {
   
  @media (max-width: 999px) {
 
-    body {
+    html {
       overflow-x: hidden;
     }
-
 
     .logo {
         position: absolute;

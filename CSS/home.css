@@ -2,7 +2,7 @@
 body {
     background-image: url(../images/home/background-home-desktop.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-attachment: fixed;
 }
 
@@ -96,6 +96,7 @@ main {
     body {
         background-image: url(../images/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
     
     }
@@ -155,6 +156,7 @@ main {
         width: 150px;
         height: 150px;
         position:static;
+        margin-bottom: 50px;
     }
 
     .explore a {
