@@ -1,11 +1,9 @@
 body {
     background-image: url(../images/destination/background-destination-desktop.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-attachment: fixed;
 }
-
-
 
 #text-mark {
     border-bottom: 3px solid #fff;
@@ -14,10 +12,14 @@ body {
 }
 
 .destination {
-    text-align: center;
+    justify-content: center;
 }
 
 .destination h1 {
+    margin: 106px auto 0 15%;
+    height: 34px;
+    left: 14.14%;
+    top: 262px;
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
@@ -26,49 +28,94 @@ body {
     letter-spacing: 4.725px;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: left;
 }
 
-.destination h1 strong {
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
+.destination strong {
     opacity: 0.25;
+    margin-right: 26px;
 }
 
 .moon {
     display: flex;
+    margin: 44px auto auto auto;
     justify-content: center;
 }
 
 .moon img {
+    margin-top: 75px;
     width: 445px;
     height: 445px;
 }
 
 .description {
-    width: 445px;
-    height: 472px;
+    color: #fff;
+    margin-left: 12%;
 }
 
-.moon nav ul {
+.description nav ul {
     display: flex;
-    padding: 0;
-}
-
-.moon li{
+    list-style: none;
+    text-transform: uppercase;
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
-    color: #FFFFFF;
-    list-style: none;
-    padding-right: 35px;
+    padding-left: 0;
+}
+
+.description nav ul li {
+    padding:0 35px 0 0;
+}
+
+.description h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
     text-transform: uppercase;
+}
+
+.description p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    max-width: 444px;
+    margin-bottom: 54px;
+}
+
+.description section {
+    display: flex;
+}
+
+.description section div {
+    margin: 0 79px 0 0;
+}
+
+.description section p {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    margin: 28px 0 12px 0;
+}
+
+.description section h3 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
