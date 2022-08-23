@@ -48,6 +48,42 @@ body {
     height: 445px;
 }
 
+.mars {
+    display: none;
+    margin: 44px auto auto auto;
+    justify-content: center;
+}
+
+.mars img {
+    margin-top: 75px;
+    width: 445px;
+    height: 445px;
+}
+
+.europa {
+    display: none;
+    margin: 44px auto auto auto;
+    justify-content: center;
+}
+
+.europa img {
+    margin-top: 75px;
+    width: 445px;
+    height: 445px;
+}
+
+.titan {
+    display: none;
+    margin: 44px auto auto auto;
+    justify-content: center;
+}
+
+.titan img {
+    margin-top: 75px;
+    width: 445px;
+    height: 445px;
+}
+
 .description {
     color: #fff;
     margin-left: 12%;
@@ -153,6 +189,42 @@ body {
     }
 
     .moon img {
+        width: 200px;
+        height: 200px;
+        margin: 32px auto 32px auto;
+    }
+
+    .mars {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .mars img {
+        width: 200px;
+        height: 200px;
+        margin: 32px auto 32px auto;
+    }
+
+    .europa {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .europa img {
+        width: 200px;
+        height: 200px;
+        margin: 32px auto 32px auto;
+    }
+
+    .titan {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .titan img {
         width: 200px;
         height: 200px;
         margin: 32px auto 32px auto;
