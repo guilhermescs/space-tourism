@@ -66,8 +66,16 @@ body {
     padding-left: 0;
 }
 
-.description nav ul li {
-    padding:0 35px 0 0;
+.description nav ul li a {
+    margin:0 35px 0 0;
+    color: #D0D6F9;
+    cursor: pointer;
+}
+
+.description nav ul li a:hover {
+    color: #fff;
+    border-bottom: 3px solid rgb(171, 171, 171);
+    padding-bottom: 8px;
 }
 
 .description h2 {
@@ -118,4 +126,80 @@ body {
     line-height: 32px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+@media (max-width: 999px) {
+    body {
+        background-image: url(../images/destination/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .destination h1 {
+        text-align: center;
+        font-size: 16px;
+        margin: 34px auto 0 auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+    .moon {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .moon img {
+        width: 200px;
+        height: 200px;
+        margin: 32px auto 32px auto;
+    }
+
+    .description {
+        margin: auto;
+        text-align: center;
+        width: 327px;
+    }
+
+    .description nav ul {
+        margin: 0 auto 0 auto;
+        margin-bottom: 31px;
+    }
+
+    .description nav ul li a {
+        padding: 0 0 0 0;
+        margin: 0 13px 0 13px;
+        font-size: 14px;
+        color: #D0D6F9;
+    }
+
+    
+
+    .description > h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+    }
+
+    .description > p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .description section {
+        flex-direction: column;
+    }
+
+    .description section div {
+        margin: 0;
+    }
+
 }
