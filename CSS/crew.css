@@ -1,0 +1,121 @@
+body {
+    background-image: url(../images/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#text-mark {
+    border-bottom: 3px solid #fff;
+    margin-top: 33px;
+    padding-bottom: 32px;
+}
+
+main {
+    color: #fff;
+}
+
+.all-crew {
+    justify-content: center;
+}
+
+.all-crew h1 {
+    margin: 106px auto 0 15%;
+    height: 34px;
+    left: 14.14%;
+    top: 262px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.all-crew strong {
+    opacity: 0.25;
+    margin-right: 26px;
+}
+
+.crew {
+    display: flex;
+    bottom: 0;
+    right: auto;
+    left: auto;
+    margin: 0 15% 0 15%;
+    position: absolute;
+    
+}
+
+.description {
+    margin: auto 10% auto 0;
+}
+
+
+.description h3 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.description h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 15px 0 27px 0;
+    width: 650px;
+}
+
+.description p {
+    width: 444px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    margin-bottom: 120px;
+}
+
+.description nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.description nav ul li {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.17;
+    width: 15px;
+    height: 15px;
+    margin: 0 24px 0 0;
+}
+
+.description nav ul li:hover {
+    opacity: 1;
+}
+
+@media (max-width: 999px) {
+    body {
+        background-image: url(../images/crew/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}

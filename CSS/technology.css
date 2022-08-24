@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#text-mark {
+    border-bottom: 3px solid #fff;
+    margin-top: 33px;
+    padding-bottom: 32px;
+}
+
+@media (max-width: 999px) {
+    body {
+        background-image: url(../images/technology/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}
