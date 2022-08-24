@@ -36,6 +36,12 @@ body {
     margin-right: 26px;
 }
 
+.text-mark {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 8px;
+
+}
+
 .moon {
     display: flex;
     margin: 44px auto auto auto;
@@ -102,13 +108,13 @@ body {
     padding-left: 0;
 }
 
-.description nav ul li a {
+.description nav ul li {
     margin:0 35px 0 0;
     color: #D0D6F9;
     cursor: pointer;
 }
 
-.description nav ul li a:hover {
+.description nav ul li:hover {
     color: #fff;
     border-bottom: 3px solid rgb(171, 171, 171);
     padding-bottom: 8px;
@@ -241,7 +247,7 @@ body {
         margin-bottom: 31px;
     }
 
-    .description nav ul li a {
+    .description nav ul li {
         padding: 0 0 0 0;
         margin: 0 13px 0 13px;
         font-size: 14px;
