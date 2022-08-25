@@ -5,19 +5,15 @@ body {
     background-attachment: fixed;
 }
 
-#text-mark {
-    border-bottom: 3px solid #fff;
-    margin-top: 33px;
-    padding-bottom: 32px;
-}
-
 main {
     color: #fff;
+    overflow: hidden;
 }
 
-.all-crew {
-    justify-content: center;
+.mobile {
+    display: none;
 }
+
 
 .all-crew h1 {
     margin: 106px auto 0 15%;
@@ -42,16 +38,16 @@ main {
 
 .crew {
     display: flex;
-    bottom: 0;
-    right: auto;
-    left: auto;
     margin: 0 15% 0 15%;
-    position: absolute;
-    
+    justify-content: space-between;    
+}
+
+.desktop {
+    display: flex;
 }
 
 .description {
-    margin: auto 10% auto 0;
+    margin: 15% 10% 5% 0;
 }
 
 
@@ -67,6 +63,7 @@ main {
     opacity: 0.5;
 }
 
+
 .description h2 {
     font-family: 'Bellefair';
     font-style: normal;
@@ -76,7 +73,7 @@ main {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 15px 0 27px 0;
-    width: 650px;
+    width: max-content;
 }
 
 .description p {
@@ -110,12 +107,77 @@ main {
     opacity: 1;
 }
 
+
 @media (max-width: 999px) {
     body {
         background-image: url(../images/crew/background-crew-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    }
+
+    .all-crew h1 {
+        text-align: center;
+        font-size: 16px;
+        margin: 34px auto 0 auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .mobile {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .description {
+        margin: 0;
+        padding: 0;
+    }
+
+    .description img {
+        scale: 0.5;
+    }
+
+    .description h3 {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    .description h2 {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .description p {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
     }
 
 }

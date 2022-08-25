@@ -95,8 +95,16 @@ nav a {
   
  @media (max-width: 999px) {
 
-    html, body{
-      overflow-x: hidden !important;
+    html {
+      overflow: hidden;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    main {
+      overflow: hidden;
     }
 
     .logo {
