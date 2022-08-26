@@ -118,6 +118,19 @@ body {
     display: none;
 }
 
+.mark {
+    display: none;
+}
+
+.victor {
+    display: none;
+}
+
+.anousheh {
+    display: none;
+}
+
+
 /* Desktop */
 
 @media (min-width: 999px) {
@@ -164,14 +177,12 @@ body {
         margin-right: 26px;
     }
 
-    .mobile {
-        display: flex;
-        margin: 0 10% 0 15%;
-        justify-content: space-between;
+    .crew-info-desktop {
+        margin: 0 10% 5% 15%;
     }
 
-    .
-    .crew-info h3 {
+    
+    .crew-info-desktop h3 {
         font-family: 'Bellefair';
         font-style: normal;
         font-weight: 400;
@@ -184,7 +195,7 @@ body {
         margin: 25% 0 15px 0;
     }
 
-    .crew-info h2 {
+    .crew-info-desktop h2 {
         width: max-content;
         font-family: 'Bellefair';
         font-style: normal;
@@ -195,7 +206,7 @@ body {
         color: #FFFFFF;
     }
 
-    .crew-info p {
+    .crew-info-desktop p {
         font-family: 'Barlow';
         font-style: normal;
         font-weight: 400;
@@ -206,12 +217,12 @@ body {
         margin: 27px 0 120px 0;
     }
 
-    .crew-info nav ul {
+    .crew-info-desktop nav ul {
         display: flex;
         padding: 0;
     }
 
-    .crew-info nav ul li {
+    .crew-info-desktop nav ul li {
         background: #fff;
         border: 10px solid #fff;
         border-radius: 50%;
@@ -220,11 +231,13 @@ body {
         list-style: none;
     }
 
-    .crew-info nav ul li:hover {
+    .crew-info-desktop nav ul li:hover {
         opacity: 0.6;
     }
 
-    #action-btn-douglas {
+    .action-btn {
         opacity: 1;
     }
+
+
 }
