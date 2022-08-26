@@ -177,6 +177,12 @@ body {
         background-attachment: fixed;
     }
 
+    #text-mark {
+        border-bottom:0px transparent;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
     .destination h1 {
         text-align: center;
         font-size: 16px;

@@ -99,21 +99,17 @@ nav a {
       overflow: hidden;
     }
 
-    body {
-      overflow: hidden;
-    }
-
-    main {
-      overflow: hidden;
-    }
-
     .logo {
         position: absolute;
         left: 24px;
         top: 24px;
+      }
+      
+      .logo img {
         width: 40px;
         height: 40px;
     }
+
     .nav-list {
         position: absolute;
         width: 254px;
@@ -127,7 +123,9 @@ nav a {
         background: rgba(255, 255, 255, 0.04);
         backdrop-filter: blur(81.5485px);
         padding-left: 0;
+        z-index: 1;
     }
+    
     .list {
         position: absolute;
         top: 118px;
@@ -148,7 +146,7 @@ nav a {
       display: block;
       position: absolute;
       right: 24px;
-      top: 33px;
+      top: 25px;
       z-index: 10;
     }
     
