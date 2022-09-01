@@ -95,8 +95,8 @@ nav a {
   
  @media (max-width: 999px) {
 
-    html {
-      overflow: hidden;
+    html, body{
+      overflow-x: hidden!important;
     }
 
     .logo {
@@ -121,7 +121,6 @@ nav a {
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(81.5485px);
         padding-left: 0;
         z-index: 1;
     }
