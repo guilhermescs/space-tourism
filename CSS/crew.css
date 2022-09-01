@@ -130,6 +130,9 @@ body {
     display: none;
 }
 
+.mark {
+    background-color: transparent!important;
+}
 
 /* Desktop */
 
@@ -141,6 +144,7 @@ body {
 
     .desktop{
         display: flex;
+
     }
 
 
@@ -148,6 +152,7 @@ body {
         background-image: url(../images/crew/background-crew-desktop.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-color: transparent;
     }
 
     #text-mark {
@@ -179,6 +184,10 @@ body {
 
     .crew-info-desktop {
         margin: 0 10% 5% 15%;
+    }
+
+    .crew-info-desktop nav ul li {
+        cursor: pointer;
     }
 
     .crew-info-desktop nav ul li.action-btn {

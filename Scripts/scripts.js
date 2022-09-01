@@ -46,66 +46,133 @@ mobileNavbar.init();
 
 // Destinatio > nav
 
-var a = document.getElementById("action-btn-moon");
 
-a.addEventListener("click", function(){
-    
-    var moon = document.getElementById("moon");
-    var mars = document.getElementById("mars");
-    var europa = document.getElementById("europa");
-    var titan = document.getElementById("titan");
+function clickmoon() {
+  var moon = document.getElementById("moon");
+  var mars = document.getElementById("mars");
+  var europa = document.getElementById("europa");
+  var titan = document.getElementById("titan");
 
-    moon.style.display = "flex"
-    mars.style.display = "none"
-    europa.style.display = "none"
-    titan.style.display = "none"
-    
-});
+  moon.style.display = "flex"
+  mars.style.display = "none"
+  europa.style.display = "none"
+  titan.style.display = "none"
+}
 
-var a = document.getElementById("action-btn-mars");
+function clickmars() {
+  var moon = document.getElementById("moon");
+  var mars = document.getElementById("mars");
+  var europa = document.getElementById("europa");
+  var titan = document.getElementById("titan");
 
-a.addEventListener("click", function(){
-    
-    var moon = document.getElementById("moon");
-    var mars = document.getElementById("mars");
-    var europa = document.getElementById("europa");
-    var titan = document.getElementById("titan");
+  moon.style.display = "none"
+  mars.style.display = "flex"
+  europa.style.display = "none"
+  titan.style.display = "none"
+}
 
-    moon.style.display = "none"
-    mars.style.display = "flex"
-    europa.style.display = "none"
-    titan.style.display = "none"
-    
-});
+function clickeuropa() {
+  var moon = document.getElementById("moon");
+  var mars = document.getElementById("mars");
+  var europa = document.getElementById("europa");
+  var titan = document.getElementById("titan");
 
-var a = document.getElementById("action-btn-europa");
+  moon.style.display = "none"
+  mars.style.display = "none"
+  europa.style.display = "flex"
+  titan.style.display = "none"
+}
 
-a.addEventListener("click", function(){
-    
-    var moon = document.getElementById("moon");
-    var mars = document.getElementById("mars");
-    var europa = document.getElementById("europa");
-    var titan = document.getElementById("titan");
+function clicktitan() {
+  var moon = document.getElementById("moon");
+  var mars = document.getElementById("mars");
+  var europa = document.getElementById("europa");
+  var titan = document.getElementById("titan");
 
-    moon.style.display = "none"
-    mars.style.display = "none"
-    europa.style.display = "flex"
-    titan.style.display = "none"
-    
-});
+  moon.style.display = "none"
+  mars.style.display = "none"
+  europa.style.display = "none"
+  titan.style.display = "flex"
+}
 
-var a = document.getElementById("action-btn-titan");
+//crew page
 
-a.addEventListener("click", function(){
-    
-    var moon = document.getElementById("moon");
-    var mars = document.getElementById("mars");
-    var europa = document.getElementById("europa");
-    var titan = document.getElementById("titan");
+function clickdouglas() {
+  var douglas = document.getElementById("douglas");
+  var mark = document.getElementById("mark");
+  var victor = document.getElementById("victor");
+  var anousheh = document.getElementById("anousheh");
 
-    moon.style.display = "none"
-    mars.style.display = "none"
-    europa.style.display = "none"
-    titan.style.display = "flex"
-    
-});
+  douglas.style.display = "block"
+  mark.style.display = "none"
+  victor.style.display = "none"
+  anousheh.style.display = "none"
+}
+
+function clickmark() {
+  var douglas = document.getElementById("douglas");
+  var mark = document.getElementById("mark");
+  var victor = document.getElementById("victor");
+  var anousheh = document.getElementById("anousheh");
+
+  douglas.style.display = "none"
+  mark.style.display = "block"
+  victor.style.display = "none"
+  anousheh.style.display = "none"
+}
+
+function clickvictor() {
+  var douglas = document.getElementById("douglas");
+  var mark = document.getElementById("mark");
+  var victor = document.getElementById("victor");
+  var anousheh = document.getElementById("anousheh");
+
+  douglas.style.display = "none"
+  mark.style.display = "none"
+  victor.style.display = "block"
+  anousheh.style.display = "none"
+}
+
+function clickanousheh() {
+  var douglas = document.getElementById("douglas");
+  var mark = document.getElementById("mark");
+  var victor = document.getElementById("victor");
+  var anousheh = document.getElementById("anousheh");
+
+  douglas.style.display = "none"
+  mark.style.display = "none"
+  victor.style.display = "none"
+  anousheh.style.display = "block"
+}
+
+//technology page
+
+function clicklaunch() {
+  var launch = document.getElementById("launch");
+  var spaceport = document.getElementById("spaceport");
+  var capsule = document.getElementById("capsule");
+
+  launch.style.display = "block"
+  spaceport.style.display = "none"
+  capsule.style.display = "none"
+}
+
+function clickspaceport() {
+  var launch = document.getElementById("launch");
+  var spaceport = document.getElementById("spaceport");
+  var capsule = document.getElementById("capsule");
+
+  launch.style.display = "none"
+  spaceport.style.display = "block"
+  capsule.style.display = "none"
+}
+
+function clickcapsule() {
+  var launch = document.getElementById("launch");
+  var spaceport = document.getElementById("spaceport");
+  var capsule = document.getElementById("capsule");
+
+  launch.style.display = "none"
+  spaceport.style.display = "none"
+  capsule.style.display = "block"
+}
