@@ -55,6 +55,7 @@ nav a {
     right: 0;
     top: 40px;
     background: rgba(255, 255, 255, 0.04);
+    -webkit-backdrop-filter: blur(81.5485px);
     backdrop-filter: blur(81.5485px);
     list-style: none;
     display: flex;
@@ -126,6 +127,7 @@ nav a {
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         background: rgba(255, 255, 255, 0.04);
+        -webkit-backdrop-filter: blur(81.5485px);
         backdrop-filter: blur(81.5485px);
         padding-left: 0;
         z-index: 1;
