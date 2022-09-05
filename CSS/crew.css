@@ -24,6 +24,12 @@ body {
     margin-right: 16px;
 }
 
+.teste {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
 #image-crew {
     margin-top: 32px;
     text-align: center;
@@ -118,21 +124,43 @@ body {
     display: none;
 }
 
+.douglas {
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 10% 0 10%; 
+}
+
 .mark {
-    display: none;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 10% 0 10% !important; 
+    background-color: transparent!important;
 }
 
 .victor {
-    display: none;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 10% 0 10%; 
 }
 
 .anousheh {
-    display: none;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 10% 0 10%; 
 }
 
-.mark {
-    background-color: transparent!important;
-}
 
 /* Desktop */
 
@@ -250,6 +278,46 @@ body {
 
     .action-btn {
         opacity: 1;
+    }
+
+    .douglas {
+        display: flex;
+        padding-right: 30%;
+        padding-left: 20%;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        margin: 44px auto auto auto;
+        justify-content: center;
+    }
+
+    .mark {
+        display: flex;
+        padding-right: 30% !important;
+        padding-left: 20% !important;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        margin: 44px auto auto auto;
+        justify-content: center;
+    }
+
+    .victor {
+        display: flex;
+        padding-right: 30%;
+        padding-left: 20%;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        margin: 44px auto auto auto;
+        justify-content: center;
+    }
+
+    .anousheh {
+        display: flex;
+        padding-right: 30%;
+        padding-left: 20%;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        margin: 44px auto auto auto;
+        justify-content: center;
     }
 
 
