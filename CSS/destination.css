@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #text-mark {
@@ -13,6 +14,18 @@ body {
 
 .destination {
     justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    margin-right: 0;
+}
+
+.teste {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
 .destination h1 {
@@ -43,6 +56,10 @@ body {
 
 .moon {
     display: flex;
+    padding-right: 30%;
+    padding-left: 20%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
     margin: 44px auto auto auto;
     justify-content: center;
 }
@@ -54,7 +71,11 @@ body {
 }
 
 .mars {
-    display: none;
+    display: flex;
+    padding-right: 30%;
+    padding-left: 20%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
     margin: 44px auto auto auto;
     justify-content: center;
 }
@@ -66,7 +87,11 @@ body {
 }
 
 .europa {
-    display: none;
+    display: flex;
+    padding-right: 30%;
+    padding-left: 20%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
     margin: 44px auto auto auto;
     justify-content: center;
 }
@@ -78,7 +103,11 @@ body {
 }
 
 .titan {
-    display: none;
+    display: flex;
+    padding-right: 30%;
+    padding-left: 20%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
     margin: 44px auto auto auto;
     justify-content: center;
 }
@@ -92,6 +121,7 @@ body {
 .description {
     color: #fff;
     margin-left: 12%;
+    max-width: 444px;
 }
 
 .description nav ul {
@@ -135,6 +165,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
+    width: 444px;
     max-width: 444px;
     margin-bottom: 54px;
 }
@@ -145,6 +176,7 @@ body {
 
 .description section div {
     margin: 0 79px 0 0;
+    max-width: 222px;
 }
 
 .description section p {
@@ -183,6 +215,10 @@ body {
         padding-bottom: 0;
     }
 
+    .teste {
+        text-align: center;
+    }
+
     .destination h1 {
         text-align: center;
         font-size: 16px;
@@ -197,19 +233,21 @@ body {
         flex-direction: column;
         align-items: center;
         margin: 0;
+        padding: 0 10% 0 10%;
     }
 
     .moon img {
         width: 200px;
         height: 200px;
         margin: 32px auto 32px auto;
+
     }
     
     .mars {
         flex-direction: column;
         align-items: center;
         margin: 0;
-    }
+        padding: 0 10% 0 10%;    }
 
     .mars img {
         width: 200px;
@@ -221,6 +259,7 @@ body {
         flex-direction: column;
         align-items: center;
         margin: 0;
+        padding: 0 10% 0 10%;
     }
 
     .europa img {
@@ -233,6 +272,7 @@ body {
         flex-direction: column;
         align-items: center;
         margin: 0;
+        padding: 0 10% 0 10%;
     }
 
     .titan img {
@@ -275,14 +315,20 @@ body {
         font-size: 15px;
         line-height: 30px;
         text-align: center;
+        width: auto;
     }
 
     .description section {
         flex-direction: column;
+        align-items: center;
     }
 
     .description section div {
         margin: 0;
+    }
+
+    .description section div p {
+        width: auto;
     }
 
 }
